@@ -63,10 +63,10 @@ function iterate(grid) {
 let rows;
 let cols;
 let grid;
-let resolution = 20;
+let resolution = 10;
 
 function setup() {
-  createCanvas(1200, 800)
+  createCanvas(600, 400)
   frameRate(10)
   rows = height / resolution;
   cols = width / resolution;
